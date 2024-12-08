@@ -17,7 +17,7 @@ export const Bio = {
     "I am a motivated and adaptable individual with a passion for continuous learning and excellence. Dedicated to delivering high-quality results, I thrive on embracing new challenges and opportunities for growth. With a positive attitude and a strong commitment to achieving meaningful contributions, I am ready to make an impact and accomplish exceptional goals.",
   github: "https://github.com/Tharusha-2000",
   resume:
-    "https://drive.google.com/file/d/1N4QDOfp8os8WATXJG6Y0YeYfMiY95iTh/view?usp=drive_link",
+    "https://drive.google.com/file/d/1TR6HzU8iUQDDfRmQByKQnyKpYYrMDKFq/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/arosh-upathilak-540124260/",
   insta: "",
   facebook: "https://www.facebook.com/arosh.upathilak",

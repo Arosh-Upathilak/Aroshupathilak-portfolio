@@ -136,15 +136,25 @@
       font-size: 1rem;
     }
   
-
-  
-    .image {
-      margin-top: 1rem;
-    }
-  
     .image img {
       width: 300px;
       height: 330px;
+    }
+    .hero-container{
+      margin-top: -100px;
+      
+    }
+    .hero-inner-container{
+      padding: 0 1rem;
+    }
+    .title{
+      font-size: 1.5rem;
+    }
+    .text-loop{
+      font-size: 1rem;
+    }
+    .subtitle{
+      font-size: 1rem;
     }
 
   }
@@ -190,9 +200,7 @@
 
   @media (max-width: 500px){
   
-    .image {
-      margin-top: 1rem;
-    }
+
   
     .image img {
       width: 150px;

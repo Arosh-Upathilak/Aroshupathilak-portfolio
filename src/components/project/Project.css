@@ -244,3 +244,19 @@
   background-color: transparent;
   align-items: center;
 }
+@media (max-width: 700px){
+  .toggle-button-group{
+    flex-direction: column;
+  }
+  .toggle-button{
+    border-right: none;
+    border-bottom:2px solid var(--text-primary);
+  }
+  .toggle-button:last-child{
+    border-radius: 0 0 14px 14px;
+    border-bottom:none ;
+  }
+  .toggle-button:first-child{
+    border-radius: 14px 14px 0 0 ;
+  }
+}

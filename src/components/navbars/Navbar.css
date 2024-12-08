@@ -1,0 +1,154 @@
+.nav {
+  background-color: var(--bg-color);
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  color: black;
+}
+
+.navbar-container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.color-text {
+  color: var(--text-primary);
+  font-size: 30px;
+}
+
+.name {
+  color: var(--text-primary);
+}
+
+.nav-logo {
+  display: flex;
+  justify-items: left;
+  align-items: center;
+  text-align: left;
+  width: 80%;
+  padding: 0 6px;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 0 6px;
+  list-style: none;
+}
+
+.nav-items a {
+  color: var(--text-primary);
+  font-weight: 550;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-items a:hover {
+  color: var(--primary-color);
+}
+
+.button-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0 6px;
+}
+
+.github-button {
+  border: 2px solid var(--text-primary);
+  color: var(--text-primary);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.6s ease-in-out;
+  text-decoration: none;
+}
+
+.github-button:hover {
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.mobile-icon {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: var(--text-primary);
+  display: none;
+}
+
+.mobile-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+  padding: 0 6px;
+  list-style: none;
+  width: 100%;
+  padding: 12px 40px 24px 40px;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  transition: all 0.6s ease-in-out;
+  transform: translateY(-100%);
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  z-index: -1000;
+  background-color: var(--bg-color);
+}
+
+.mobile-menu a {
+  color: var(--text-primary);
+  font-weight: 550;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.mobile-menu.open {
+  transform: translateY(0);
+  opacity: 100%;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 950px) {
+  .nav-items {
+    display: none;
+  }
+
+  .mobile-icon {
+    display: block;
+  }
+
+  .button-container {
+    display: none;
+  }
+}

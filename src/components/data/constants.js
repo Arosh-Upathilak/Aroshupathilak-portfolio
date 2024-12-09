@@ -15,7 +15,7 @@ export const Bio = {
   ],
   description:
     "I am a motivated and adaptable individual with a passion for continuous learning and excellence. Dedicated to delivering high-quality results, I thrive on embracing new challenges and opportunities for growth. With a positive attitude and a strong commitment to achieving meaningful contributions, I am ready to make an impact and accomplish exceptional goals.",
-  github: "https://github.com/Tharusha-2000",
+  github: "https://github.com/Arosh-Upathilak",
   resume:
     "https://drive.google.com/file/d/1TR6HzU8iUQDDfRmQByKQnyKpYYrMDKFq/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/arosh-upathilak-540124260/",
@@ -353,7 +353,7 @@ export const projects = [
       "The Satellite Dish Alignment System is an embedded project designed to enhance the precision and efficiency of satellite dish positioning. This system comprises a Master Unit and a Slave Unit, working collaboratively to ensure optimal alignment with communication satellites.",
     image:Satellite,
     tags: [" C language", "Arduino IDE"],
-    category: "Embeeded",
+    category: "Embedded",
     github: "https://github.com/Arosh-Upathilak/Satellite-Dish-Alignment-System-Embedded-Project/blob/main/README.md",
     webapp: "",
 

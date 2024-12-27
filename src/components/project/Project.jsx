@@ -18,7 +18,7 @@ const Project = () => {
           I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
         </div>
         <div className="toggle-button-group">
-          {["all", "Web App", "Embedded", "Robotic"].map((category) => (
+          {["all", "Web App","AI","Embedded", "Robotic"].map((category) => (
             <div
               key={category}
               className={`toggle-button ${toggle === category ? "active" : ""}`}

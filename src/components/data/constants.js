@@ -4,6 +4,7 @@ import SE_project from '../../asserts/SE_project.png';
 import Satellite from '../../asserts/Satellite.jpg';
 import Robotics from '../../asserts/Robodk.png';
 import CSImage from '../../asserts/cs-image.png';
+import AiImage from '../../asserts/ai_image.png';
 
 export const Bio = {
   name: "Adun Arosh Upathilak",
@@ -372,6 +373,22 @@ export const projects = [
     category: "Robotic",
 
     github: "https://github.com/Arosh-Upathilak/Robotic-ARM-Manipulator-assigned-to-do-Pick-Place-task/blob/main/README.md",
+    webapp: "",
+  },
+  {
+    id: 2,
+    title: "Sinhala Spell and Grammar Checker",
+    date: "Nov 2024",
+    description:
+      " Developed a Sinhala Spelling and Grammar Checker to enhance writing accuracy, utilizing natural language processing techniques to detect and correct spelling and grammar errors for improved clarity and correctness in Sinhala text.",
+    image:AiImage,
+    tags: [
+      "python","React"
+    ],
+    
+    category: "AI",
+
+    github: "https://github.com/Arosh-Upathilak/Sinhala-Spelling-corrector-and-Grammar-Checker.git",
     webapp: "",
   },
   

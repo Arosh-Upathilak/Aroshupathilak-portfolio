@@ -25,6 +25,7 @@ const Navbar = () => {
           <HashLink smooth to="#Skills" className="nav-link">Skills</HashLink>     
           <HashLink smooth to="#Projects" className="nav-link">Projects</HashLink>
           <HashLink smooth to="#Education" className="nav-link">Education</HashLink>
+          <HashLink smooth to="#Experience" className="nav-link">Experience</HashLink>
           <HashLink smooth to="#Contact" className="nav-link">Contact</HashLink>
         </ul>
 

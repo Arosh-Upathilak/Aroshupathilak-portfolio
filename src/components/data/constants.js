@@ -5,6 +5,9 @@ import Satellite from '../../asserts/Satellite.jpg';
 import Robotics from '../../asserts/Robodk.png';
 import CSImage from '../../asserts/cs-image.png';
 import AiImage from '../../asserts/ai_image.png';
+import EPL from '../../asserts/EPL.png';
+import Zebra from '../../asserts/zebra.jpeg';
+import HeathInsight from '../../asserts/Health_insight.png'
 
 export const Bio = {
   name: "Adun Arosh Upathilak",
@@ -18,8 +21,8 @@ export const Bio = {
     "I am a motivated and adaptable individual with a passion for continuous learning and excellence. Dedicated to delivering high-quality results, I thrive on embracing new challenges and opportunities for growth. With a positive attitude and a strong commitment to achieving meaningful contributions, I am ready to make an impact and accomplish exceptional goals.",
   github: "https://github.com/Arosh-Upathilak",
   resume:
-    "https://drive.google.com/file/d/1TR6HzU8iUQDDfRmQByKQnyKpYYrMDKFq/view?usp=drive_link",
-  linkedin: "https://www.linkedin.com/in/arosh-upathilak-540124260/",
+    "https://drive.google.com/file/d/1jxE2UK1bMydIRSuurtEFFaaRgUPiMQAU/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/aroshupathilak/",
   insta: "",
   facebook: "https://www.facebook.com/arosh.upathilak",
 
@@ -224,9 +227,70 @@ export const education = [
   },
 ];
 
+export const experience = [
+  {
+    id: 0,
+    img: Zebra,
+    Company: "Zebra Technologies",
+    date: " 2025 Feb - 2025 Aug ",
+    technologies: "\nC++,\n Java,\n C#,\n Git",
+    position: "Intern Software Engineer",
+    desc: "Worked with internal tools such as 123Scan, CoreScanner, JPOS, and OPS, integrating them into enterprise workflows. Developed and maintained features using Java, C#, and C++, improving cross-platform compatibility and efficiency. Collaborated with cross-functional teams to implement new features, resolve technical issues, and enhance product reliability. Actively participated in code reviews, testing, and deployment processes while following Agile development practices.",
+    degree: "BSc.Eng in Computer Engineering ",
+  },
+  
+];
 
 
 export const projects = [
+   {
+    id: 12,
+    title: "Engineering Lerning platform",
+    date: "Apr 2024",
+    description:
+      "Engineering Learning Platform (ELP) is a full-stack web application designed to enhance the learning experience of engineering students. It provides interactive modules, project-based resources, and real-time collaboration tools. The platform is built using the MERN stack (MongoDB, Express.js, React, Node.js) with a modern Tailwind CSS interface for a seamless user experience.",
+    image:EPL,
+    tags: [
+      "React","Tailwind CSS","Node Js","Express Js","MongoDB"
+    ],
+    
+    category: "Web App",
+
+    github: "https://github.com/Arosh-Upathilak/ELP-UOJ",
+    webapp: "",
+  },
+  {
+    id: 13,
+    title: "Health Insights Dashboard",
+    date: "July 2025",
+    description:
+      "Health Insights Dashboard is a data-driven web application designed to analyze and visualize patient health metrics. Built with Flask and SQLAlchemy, it enables users to track key indicators such as BMI, blood pressure, and heart rate trends. The system provides interactive charts, predictive insights, and a clean interface for better healthcare data interpretation and decision-making.",
+    image:HeathInsight,
+      tags: [
+      "python","Flask","SQLAlchemy",
+    ],
+    
+    category: "Web App",
+
+    github: "https://github.com/Arosh-Upathilak/Health-Insights.git",
+    webapp: "",
+  },
+  {
+    id: 2,
+    title: "Sinhala Spell and Grammar Checker",
+    date: "Nov 2024",
+    description:
+      " Developed a Sinhala Spelling and Grammar Checker to enhance writing accuracy, utilizing natural language processing techniques to detect and correct spelling and grammar errors for improved clarity and correctness in Sinhala text.",
+    image:AiImage,
+    tags: [
+      "python","React"
+    ],
+    
+    category: "AI",
+
+    github: "https://github.com/Arosh-Upathilak/Sinhala-Spelling-corrector-and-Grammar-Checker.git",
+    webapp: "",
+  },
   {
     id: 11,
     title: "Exam Registration UOJ",

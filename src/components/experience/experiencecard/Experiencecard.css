@@ -1,0 +1,125 @@
+.experience-card-icon {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+.experience-card-top {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.experience-card-img {
+  height: 50px;
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+.experience-card-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: transparent;
+}
+
+.experience-card-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--base-color);
+  background-color: transparent;
+}
+
+.experience-card-degree {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--base-color);
+  background-color: transparent;
+}
+
+.experience-card-date {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0;
+  color: var(--base-color);
+  background-color: transparent;
+}
+
+.experience-card-grade {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--base-color);
+  background-color: transparent;
+}
+.experience-card-grade b {
+  background-color: transparent;
+}
+
+.experience-card-description {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--base-color);
+  background-color: transparent;
+}
+
+@media (max-width: 1177px) {
+  .experience-card-img {
+    height: 40px;
+  }
+
+  .experience-card-name {
+    font-size: 14px;
+  }
+
+  .experience-card-degree {
+    font-size: 12px;
+  }
+
+  .experience-card-date {
+    font-size: 10px;
+  }
+  .experience-card-date1 {
+    text-align: center;
+  }
+  .experience-card-description {
+    font-size: 12px;
+  }
+
+  .vertical-timeline-element {
+    position: relative;
+    z-index: 1;
+  }
+
+  .vertical-timeline-element::before {
+    display: none;
+  }
+
+
+  .vertical-timeline-element::after {
+    content: '';
+    position: absolute;
+    top: 45px;
+    left: 17px; 
+    height: 100%;
+    width: 4.5px;
+    background-color: white;
+  }
+}
+
+.vertical-timeline-element {
+  position: relative;
+}
+
+.vertical-timeline-element::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 4.5px;
+  background-color: white;
+}
